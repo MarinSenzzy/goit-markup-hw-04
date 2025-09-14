@@ -310,11 +310,10 @@ p {
 
 .team-text {
     text-align: center;
+    margin-bottom: 8px;
 }
 
-.class-team-link {
-    margin-top: 8px;
-}
+
 
 .team-link-list {
     display: flex;
@@ -325,6 +324,7 @@ p {
 .team-link-item {
     width: 40px;
     height: 40px;
+    border-radius: 50%;
 
 }
 
@@ -341,8 +341,8 @@ p {
 
 
 
-.team-item:hover .team-link,
-.team-item:focus .team-link {
+.team-link:hover,
+.team-link:focus {
     background-color: #404BBF;
 }
 
